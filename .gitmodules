@@ -1,0 +1,3 @@
+[submodule "uuid4"]
+	path = uuid4
+	url = git@github.com:rxi/uuid4.git
