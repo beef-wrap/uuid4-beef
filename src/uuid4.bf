@@ -9,7 +9,7 @@ public static class uuid4
 
 	public const c_int UUID4_LEN = 37;
 
-	public enum status
+	public enum status : c_int
 	{
 		UUID4_ESUCCESS =  0,
 		UUID4_EFAILURE = -1

@@ -5,7 +5,6 @@ Name = "uuid4-beef"
 DefaultNamespace = "uuid4"
 
 [Configs.Debug.Win64]
-CLibType = "DynamicDebug"
 LibPaths = ["$(ProjectDir)\\libs\\debug\\uuid4.lib", "Advapi32.lib"]
 
 [Configs.Release.Win64]
